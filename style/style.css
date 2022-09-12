@@ -160,18 +160,17 @@ body{
 }
 
 .footer{
-    height: 156px;
-    top: 1953px;
     background: #20003C;
-    padding: 43px 0 43px;
-}
-.footer_link{
-    font-weight: 700;
-    line-height: 21px; 
-    color: #FFFFFF; 
-    text-decoration: none;
+    padding: 58px 0 58px;
 }
 .footer_ul{
     display: flex;
     gap: 74px;
+}
+
+.footer_link{
+    font-weight: 700px;
+    line-height: 21px; 
+    color: #FFFFFF; 
+    text-decoration: none;
 }
