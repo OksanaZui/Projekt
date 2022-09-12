@@ -89,6 +89,76 @@ body{
     width: 187px;
     padding: 9px;
 }
+.grow{
+    margin: 136px auto;
+}
+.Grow_title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #1C1C1C;
+    max-width: 415px;
+}
+.Grow_flex{
+    display: flex;
+    gap: 34px;
+}
+
+.Grow_element{
+    max-width: 333px;
+    text-align: center;
+}
+.Grow_item{
+    padding: 35px 0 82px;
+    box-shadow: 0px 2px 4px rgba(192, 192, 192, 0.5);
+    border-radius: 0px 0px 7px 7px;
+}
+.Grow_pretitle{
+    font-size: 26px;
+    line-height: 22px;
+}
+.Grow_text{
+    font-size: 18px;
+    line-height: 22px;
+    color: #6F2CFF;
+    max-width: 219px;
+    margin: 0 auto;
+    margin-top: 28px;
+ }
+.Qubit{
+    margin-bottom: 136px;
+}
+.Qubit_header{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    margin-bottom: 79px;
+}
+.Qubit_flex{
+    display: flex;
+    gap: 150px;
+    margin-bottom: 136px;
+}
+.img_Qubit{
+    margin-bottom: 42px;
+}
+.Qubit__text{
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+}
+.Qubit_p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    width: 316px;
+}
+.Qubit_element{
+        text-align: center;
+}
+
 .footer{
     height: 156px;
     top: 1953px;
