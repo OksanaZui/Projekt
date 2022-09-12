@@ -1,0 +1,176 @@
+/**{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+    list-style:none;
+}*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    margin: 13px auto 15px;
+}
+.header_ul{
+    display: flex;
+    gap: 62px;
+}
+.header_link{
+    font-size: 14px;
+    line-height: 14px;
+    color: #1C1C1C;
+    text-decoration: none;
+}
+.button{
+    height: 40px;
+    width: 157px;
+    border-radius: 20px;
+    background: #6F2CFF;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+   }
+.button:hover{
+    background: blue;
+    transition: 2s;
+    cursor: pointer;
+}
+.main{
+    background: #F6BED9;
+    padding: 58px 0 59px;
+}
+.main_title{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 61px;
+    color: #000000;
+    width: 470px;
+}
+.mane_title-violet{
+    color: #6F2DFF;
+}
+.mane_text{
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 438px;
+    margin: 18px 0 18px;
+}
+.main_text-bold{
+     font-weight: bold;
+}
+.main_input{
+    height: 45px;
+    width: 268px;
+    border: 1px solid #6F2CFF;
+    border-radius: 28px 28px 28px 27.5px;
+    padding-left: 26px;
+}
+.main_input::placeholder{
+    font-size: 15px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.27);
+}
+.main_input:focus {
+    outline: none;
+}
+.main_button{
+    height: 45px;
+    width: 187px;
+    padding: 9px;
+}
+.grow{
+    margin: 136px auto;
+}
+.Grow_title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #1C1C1C;
+    max-width: 415px;
+}
+.Grow_flex{
+    display: flex;
+    gap: 34px;
+}
+
+.Grow_element{
+    max-width: 333px;
+    text-align: center;
+}
+.Grow_item{
+    padding: 35px 0 82px;
+    box-shadow: 0px 2px 4px rgba(192, 192, 192, 0.5);
+    border-radius: 0px 0px 7px 7px;
+}
+.Grow_pretitle{
+    font-size: 26px;
+    line-height: 22px;
+}
+.Grow_text{
+    font-size: 18px;
+    line-height: 22px;
+    color: #6F2CFF;
+    max-width: 219px;
+    margin: 0 auto;
+    margin-top: 28px;
+ }
+.Qubit{
+    margin-bottom: 136px;
+}
+.Qubit_header{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    margin-bottom: 79px;
+}
+.Qubit_flex{
+    display: flex;
+    gap: 150px;
+    margin-bottom: 136px;
+}
+.img_Qubit{
+    margin-bottom: 42px;
+}
+.Qubit__text{
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+}
+.Qubit_p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    width: 316px;
+}
+.Qubit_element{
+        text-align: center;
+}
+
+.footer{
+    background: #20003C;
+    padding: 58px 0 58px;
+}
+.footer_ul{
+    display: flex;
+    gap: 74px;
+}
+
+.footer_link{
+    font-weight: 700px;
+    line-height: 21px; 
+    color: #FFFFFF; 
+    text-decoration: none;
+}
